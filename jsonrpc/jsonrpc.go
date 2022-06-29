@@ -244,7 +244,7 @@ func (j *JSONRPC) handle(w http.ResponseWriter, req *http.Request) {
 	}
 
 	if req.Method == "GET" {
-		_, _ = w.Write([]byte("Polygon Edge JSON-RPC"))
+		_, _ = w.Write([]byte("FEN JSON-RPC"))
 
 		return
 	}
