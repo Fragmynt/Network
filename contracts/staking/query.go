@@ -13,7 +13,7 @@ import (
 
 var (
 	// staking contract address
-	AddrStakingContract = types.StringToAddress("AEd49fCEf5D2245E551A91bA2366a0c9B8115273")
+	AddrStakingContract = types.StringToAddress("63BDC489D565874296593dF0cC7275911aF21c17")
 
 	// Gas limit used when querying the validator set
 	queryGasLimit uint64 = 100000
